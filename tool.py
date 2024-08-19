@@ -6,4 +6,9 @@ def main(argv):
     
     if verb not in {'get', 'set', 'delete'}: #getters and setters for verb
         usage()
-        return BAD_VERB 
+        return BAD_VERB
+    
+    db = dbdb.connect(dbname)          #connect to the db 
+    try:
+        if verb == 'get':
+            sys.stdout.write 
