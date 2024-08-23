@@ -1,0 +1,2 @@
+Personal Implementation of a Database with ACID properties (only the atomicity and durability), did not attempt proper isolation so no gurantee of isolation
+motivated by the  https://aosabook.org/en/500L/dbdb-dog-bed-database.html
